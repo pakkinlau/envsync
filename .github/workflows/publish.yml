@@ -1,8 +1,9 @@
 name: Publish Python Package
 
 on:
-  release:
-    types: [created]
+  push: # this line determines when the action will run
+    branches:
+      - main  # which branch to run the action on
 
 jobs:
   build:
