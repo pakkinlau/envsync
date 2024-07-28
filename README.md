@@ -16,12 +16,7 @@ pip install envsync
 To initialize a local Git repository with the necessary hooks, run:
 
 ```
-
 envsync /path/to/local_git_repo_folder
-```
-
-```
-
 ```
 
 This command will set up the following hooks:
@@ -30,8 +25,10 @@ This command will set up the following hooks:
 * `pre-commit`: Prevents committing files larger than 100MB.
 * `post-merge`: Updates the virtual environment if `requirements.txt` changes after a merge.
 
+## Contributors
+Pak Kin LAU: https://github.com/pakkinlau
+Alex MASON: https://github.com/amason445
+
 
 ## License 
-
-
 This project is licensed under the MIT License.
