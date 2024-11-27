@@ -1,6 +1,6 @@
 # envsync
 
-envsync is a Python package to manage coding environments and projects using Python virtual environments and Git hooks.
+`envsync` is creating a apt-get experience for python packages, to automatically update the content of requirements.txt and synchronize the virtual environments of any Python projects with Git hooks.
 
 ## Installation
 
